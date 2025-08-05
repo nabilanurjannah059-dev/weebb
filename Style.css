@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fc65b8, #fc8f8f);
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffccff;
+}
+
+.sub {
+    font-size: 14px;
+    color: #ffd1ff;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.left {
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.foto {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+
+
+.instagram-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #c04848;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.instagram-btn:hover {
+    background-color: #ffd1ff;
+    color: #480048;
+}
+
+.right {
+    flex: 2 1 400px;
+}
+
+.data {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.data p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #fff;
+    color: #c04848;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffd1ff;
+    color: #480048;
+}
+
+foto-favorit {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
